@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snowman</title>
+  <style>
+    .container {
+      position: relative;
+      width: 300px;
+      height: 400px;
+      margin: 50px auto;
+    }
+    .circle {
+      position: absolute;
+      border-radius: 50%;
+      background: white;
+      border: 2px solid black;
+    }
+    .bottom {
+      width: 150px;
+      height: 150px;
+      bottom: 0;
+      left: 75px;
+    }
+    .middle {
+      width: 100px;
+      height: 100px;
+      bottom: 120px;
+      left: 100px;
+    }
+    .head {
+      width: 70px;
+      height: 70px;
+      bottom: 200px;
+      left: 115px;
+    }
+    .eye {
+      width: 10px;
+      height: 10px;
+      background: black;
+      border-radius: 50%;
+      position: absolute;
+      top: 220px;
+    }
+    .eye.left { left: 125px; }
+    .eye.right { left: 145px; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="circle bottom"></div>
+    <div class="circle middle"></div>
+    <div class="circle head"></div>
+    <div class="eye left"></div>
+    <div class="eye right"></div>
+  </div>
+</body>
+</html>
